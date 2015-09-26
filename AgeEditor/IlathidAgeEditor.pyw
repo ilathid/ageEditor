@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env python
 import wxversion
-wxversion.select('2.9','3.0')
+wxversion.select(['2.9','3.0'])
 import wx
 from IlathidAgeEditorWelcomeFrame import IlathidAgeEditorWelcomeFrame
 import sys
